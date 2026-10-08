@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mert Doğaç Uzdurmaz | Electrical-Electronics Engineering Portfolio</title>
+<meta name="description" content="Personal portfolio of Mert Doğaç Uzdurmaz, Electrical-Electronics Engineering student at Yaşar University, focused on automation and power systems.">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1d2330;
+    --muted: #5b6577;
+    --accent: #0b5cad;
+    --line: #dde2ea;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header.hero {
+    background: #12263f;
+    color: #fff;
+    padding: 64px 20px 56px;
+    text-align: center;
+  }
+  .hero h1 { margin: 0 0 6px; font-size: 2.2rem; letter-spacing: .5px; }
+  .hero p.role { margin: 0 0 20px; font-size: 1.1rem; color: #c9d6e8; }
+  .hero .links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 9px 18px;
+    border-radius: 6px;
+    border: 1px solid #c9d6e8;
+    color: #fff;
+    font-weight: 600;
+    font-size: .95rem;
+  }
+  .btn:hover { background: rgba(255,255,255,.12); text-decoration: none; }
+  .btn.primary { background: #fff; color: #12263f; border-color: #fff; }
+  .btn.primary:hover { background: #e6eefb; }
+
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    display: flex; justify-content: center; gap: 22px; flex-wrap: wrap;
+    padding: 12px 16px;
+    font-size: .95rem; font-weight: 600;
+  }
+
+  main { max-width: 900px; margin: 0 auto; padding: 8px 20px 60px; }
+  section { padding-top: 40px; }
+  h2 {
+    margin: 0 0 16px;
+    font-size: 1.4rem;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  .card h3 { margin: 0; font-size: 1.05rem; }
+  .meta { color: var(--muted); font-size: .92rem; margin: 2px 0 8px; }
+  .card ul { margin: 6px 0 0; padding-left: 20px; }
+  .card li { margin-bottom: 3px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+  .skills dt { font-weight: 700; margin-top: 8px; }
+  .skills dd { margin: 0 0 4px; color: var(--muted); }
+
+  .project .media { margin: 12px 0 4px; display: grid; gap: 10px; }
+  .slot {
+    position: relative;
+    border: 2px dashed var(--line);
+    border-radius: 8px;
+    min-height: 120px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    color: var(--muted);
+    font-size: .88rem;
+    padding: 8px;
+    overflow: hidden;
+  }
+  .slot img, .slot video {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    background: #000;
+  }
+  .slot.has-media { border: none; padding: 0; min-height: 0; aspect-ratio: 16 / 9; }
+
+  footer { text-align: center; color: var(--muted); font-size: .88rem; padding: 24px 16px 36px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Mert Doğaç Uzdurmaz</h1>
+  <p class="role">Electrical-Electronics Engineering Student | Automation &amp; Power Systems</p>
+  <div class="links">
+    <a class="btn primary" href="Mert_Dogac_Uzdurmaz_CV.pdf" download>Download CV (PDF)</a>
+    <a class="btn" href="mailto:mduzdurmaz2005@gmail.com">Email me</a>
+    <!-- TODO: replace the two links below with your real profile URLs, or delete them -->
+    <a class="btn" href="https://github.com/YOUR-USERNAME">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN/">LinkedIn</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a fourth-year Electrical-Electronics Engineering student at Yaşar University, graduating in 2027. I have hands-on internship experience in industrial automation, motor control circuits, electrical panels and PLC systems, and I use MATLAB/Simulink, LTspice and Proteus in my coursework and projects. I am looking for an internship or junior position in automation and power systems.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Yaşar University, Turkey</h3>
+      <p class="meta">B.Sc. in Electrical-Electronics Engineering | 2023 - Expected 2027</p>
+      <p><strong>Relevant coursework:</strong> Circuit Analysis, Digital Design, Power Systems, Feedback Systems, Microcontrollers, Signal Processing</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Internship Experience</h2>
+    <div class="card">
+      <h3>Maintenance Intern, ASTEMO</h3>
+      <p class="meta">Jul 2026 - Aug 2026</p>
+      <ul>
+        <li>Worked in the Maintenance Department and learned how industrial automation systems operate.</li>
+        <li>Studied electrical panels and PLC systems, including how sensors communicate with a PLC.</li>
+        <li>Observed motor control with contactor circuits and the automation process flow.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Electrical-Electronics Engineering Intern, HABAŞ</h3>
+      <p class="meta">Jun 2025 - Jul 2025</p>
+      <ul>
+        <li>Completed a voluntary internship in the Electrical-Electronics Engineering Department.</li>
+        <li>Learned the working principles of industrial automation systems and motor control with contactor circuits.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Project Portfolio</h2>
+
+    <!--
+      HOW TO ADD YOUR OWN PHOTOS AND VIDEOS
+      1. Create two folders next to this file: "images" and "videos".
+      2. Put your files in them, using the exact file names shown inside each slot below
+         (or change the names in the HTML to match your files).
+      3. The dashed boxes turn into your photo or video automatically once the file exists.
+      Tips: keep photos under about 1 MB, and videos as .mp4 under 25 MB.
+    -->
+
+    <article class="card project">
+      <h3>RFID Card Access Gate Controller</h3>
+      <p class="meta">Microcontroller Course</p>
+      <p>A microcontroller-based gate control system that reads RFID cards to grant access.</p>
+      <!-- TODO: add 2-3 sentences: which microcontroller, how the card is checked, what the gate does, what you learned -->
+      <div class="media">
+        <div class="slot">Photo: images/rfid-gate.jpg
+          <img src="images/rfid-gate.jpg" alt="RFID card access gate controller prototype" onerror="this.remove()">
+        </div>
+        <div class="slot">Demo video: videos/rfid-gate.mp4
+          <video controls preload="metadata"><source src="videos/rfid-gate.mp4" type="video/mp4" onerror="this.parentElement.remove()"></video>
+        </div>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Bridge Rectifier Power Supply with Transformer</h3>
+      <p class="meta">Circuit Theory Course</p>
+      <p>A transformer-based power supply circuit built with a diode bridge rectifier.</p>
+      <!-- TODO: add output voltage, ripple, filter capacitor value, and what you measured -->
+      <div class="media">
+        <div class="slot">Photo or circuit diagram: images/rectifier.jpg
+          <img src="images/rectifier.jpg" alt="Bridge rectifier power supply circuit" onerror="this.remove()">
+        </div>
+      </div>
+    </article>
+
+    <!-- TODO: copy one of the blocks above to add your graduation / capstone project and any other work -->
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <dl class="skills">
+        <dt>Engineering software</dt><dd>MATLAB, Simulink, Simscape, LTspice, Proteus</dd>
+        <dt>Automation</dt><dd>PLC fundamentals, sensors, electrical panels, contactor motor control</dd>
+        <dt>Programming</dt><dd>MATLAB (feedback systems, signal processing), Python (basic)</dd>
+        <dt>Tools</dt><dd>Microsoft Office, Canva</dd>
+        <dt>Languages</dt><dd>Turkish (native), English (B1+)</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">
+      <ul>
+        <li>MathWorks: Control Design Onramp with Simulink, Simscape Onramp, Simulink Fundamentals, Simulink Onramp, Power Electronics Simulation Onramp, Signal Generation and Resampling</li>
+        <li>Occupational Health and Safety Certificate (2025)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:mduzdurmaz2005@gmail.com">mduzdurmaz2005@gmail.com</a></p>
+      <p>Location: Turkey</p>
+      <p><a href="Mert_Dogac_Uzdurmaz_CV.pdf" download>Download my CV (PDF)</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>&copy; 2026 Mert Doğaç Uzdurmaz</footer>
+
+</body>
+</html>
